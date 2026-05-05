@@ -15,7 +15,7 @@
                 <input type="hidden" name="is_active" value="0">
                 <input type="checkbox" name="is_active" value="1" {{ old('is_active', $home->is_active) ? 'checked' : '' }}
                     class="form-check-input"><br>
-                <button type="submit" class="btn btn-secondary">Edit</button>
+                <button type="submit" class="btn btn-secondary mt-2">Edit</button>
             </div>
         </div>
     </form>
